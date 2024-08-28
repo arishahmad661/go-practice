@@ -10,11 +10,11 @@ The repository is organized into several directories, each focusing on different
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/arishahmad661/go-practice
+   git clone https://github.com/arishahmad661/go-programming
    
 2. Navigate to the Directory
    ```bash
-   cd go-practice
+   cd go-programming
    
 3. Explore the Code
    Navigate through the directories and explore the code files for different Go concepts and exercises.
