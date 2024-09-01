@@ -1,0 +1,29 @@
+JWT (JSON Web Token) is a compact token format used to transmit information securely between parties. It consists of three parts:
+
+Header: Describes how the JWT is encoded and the signature algorithm used.
+
+Payload: Contains the claims or information to be shared.
+
+Signature: Ensures the JWT hasn't been tampered with.
+
+How JWT Works:
+
+User sends credentials to the server.
+
+Server generates a JWT and sends it back to the user.
+
+User stores the JWT (commonly in HTTP-only cookies).
+
+User includes JWT in requests for protected resources.
+
+Server verifies JWT and processes the request if valid.
+
+Key Points:
+
+JWTs are not encrypted by default; they are encoded. To protect sensitive information, use HTTPS for transmission or encrypt the JWT.
+
+HTTP-only cookies are preferred for storing JWTs due to their protection against XSS attacks.
+
+Local Storage is less secure and susceptible to XSS.
+
+Server-side storage is an option for additional security.

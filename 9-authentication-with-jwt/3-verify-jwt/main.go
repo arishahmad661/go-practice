@@ -36,7 +36,7 @@ func verifyJWT(tokenString string) (*Claims, error) {
 
 func main() {
 	// Simulate receiving this token and verifying it
-	claims, err := verifyJWT("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld3VzZXIiLCJleHAiOjE3MjUxNjcwNjR9.-LmKhNFIcyXNOZLTP1uoSkh13JLgLp2WFX6VaR3hPAU")
+	claims, err := verifyJWT("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld3VzZXIiLCJleHAiOjE3MjUyMTg3MDN9.Yeby1Jed1LnXsAS5ZvSbBfzZ3-7InKJsg_SOUPFtekc")
 	if err != nil {
 		fmt.Println("Error verifying token:", err)
 		return
